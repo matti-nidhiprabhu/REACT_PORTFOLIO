@@ -29,7 +29,7 @@ export const Work = [
         description: "A personal portfolio website showcasing my projects and skills, built using React.js with smooth animations and responsive design.",
         tags: ["react", "javascript", "css"],
         demo: "https://matti-nidhiprabhu.vercel.app",
-        github: "https://github.com/matti-nidhiprabhu/Portfolio-AWS"
+        github: "https://github.com/matti-nidhiprabhu/REACT_PORTFOLIO"
     },
     {
         id: 5,
