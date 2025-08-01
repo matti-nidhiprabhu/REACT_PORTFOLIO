@@ -26,9 +26,9 @@ export const Work = [
     {
         id: 4,
         name: "Portfolio Website",
-        description: "A personal portfolio website showcasing my projects and skills, built using React.js with smooth animations and responsive design.",
+        description: "A personal portfolio desktop website showcasing my projects and skills, built using React.js with smooth animations and responsive design.",
         tags: ["react", "javascript", "css"],
-        demo: "https://matti-nidhiprabhu.vercel.app",
+        demo: "https://react-portfolio-kappa-eosin.vercel.app/",
         github: "https://github.com/matti-nidhiprabhu/REACT_PORTFOLIO"
     },
     {
