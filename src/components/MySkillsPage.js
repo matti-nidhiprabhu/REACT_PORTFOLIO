@@ -102,7 +102,7 @@ const MySkillsPage = () => {
           <Description>
             <strong>Skills</strong>
             <p>
-              HTML, CSS, JavaScript, React.js, Redux, Bootstrap, Tailwind, Styled-Components, Framer Motion
+              HTML, CSS, JavaScript, React.js, Bootstrap, Tailwind, Styled-Components, Framer Motion
             </p>
           </Description>
           <Description>
