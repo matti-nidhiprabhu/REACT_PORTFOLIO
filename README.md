@@ -2,5 +2,9 @@ A modern, responsive personal portfolio website built using React.js, showcasing
 
 
 
-![Alt text](result/Screenshot 2025-08-01 112908.png)
-
+![Alt text](result/1.png)
+![Alt text](result/3.png)
+![Alt text](result/2.png)
+![Alt text](result/4.png)
+![Alt text](result/5.png)
+![Alt text](result/6.png)
