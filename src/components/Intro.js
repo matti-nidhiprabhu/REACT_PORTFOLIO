@@ -45,7 +45,7 @@ display: flex;
     left: 50%;
     transform: translate(-50%,0%);
     width: 100%;
-    height: auto;
+    height: 550px;
 }
 `
 
@@ -80,8 +80,8 @@ const Intro = () => {
             <SubBox>
                 <Text>
                     <h1>Hi,</h1>
-                    <h3>I'm CodeBucks.</h3>
-                    <h6>I design and Code simple yet beautiful websites.</h6>
+                    <h3>I'm Matti Nidhi Prabhu.</h3>
+                    <h6>A passionate engineering student and aspiring software developer.</h6>
                 </Text>
             </SubBox>
             <SubBox>

@@ -76,18 +76,17 @@ const Item = {
 };
 
 const BlogComponent = (props) => {
-  const { name, tags, date, imgSrc, link } = props.blog;
+  const { title, description, imgSrc } = props.blog;
+
   return (
     <Container variants={Item}>
-      <Box target="_blank" href={`${link}`}>
+      <Box as="div"> {/* No link provided, so we just use a div */}
         <Image img={imgSrc} />
-        <Title>{name}</Title>
+        <Title>{title}</Title>
         <HashTags>
-          {tags.map((t, id) => {
-            return <Tag key={id}>#{t}</Tag>;
-          })}
+          <Tag>{description}</Tag> {/* Just using description here */}
         </HashTags>
-        <Date>{date}</Date>
+        {/* You can optionally add a static or generated date here */}
       </Box>
     </Container>
   );

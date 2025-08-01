@@ -26,11 +26,11 @@ const float = keyframes`
 const Spaceman = styled.div`
 position: absolute;
 top: 10%;
-right: 5%;
+right: 7%;
 width: 20vw;
 animation: ${float} 4s ease infinite;
 img{
-    width: 100%;
+    width: 140%;
     height: auto;
 }
 `
@@ -72,12 +72,12 @@ const AboutPage = () => {
             <img src={astronaut} alt="spaceman" />
         </Spaceman>    
         <Main>
-        I'm a front-end developer located in India. I love to create simple yet beautiful websites with great user experience.
-<br /> <br/>
-I'm interested in the whole frontend stack Like trying new things and building great projects. I'm an independent freelancer and blogger. I love to write blogs and read books.
-<br/> <br/>
-I believe everything is an Art when you put your consciousness in it. You can connect with me via social links.
-        </Main>
+  I'm an aspiring software engineer based in India, with a strong foundation in programming, research, and problem-solving. While I occasionally work on front-end development, my primary focus lies in building intelligent systems, experimenting with data-driven solutions, and contributing to impactful software projects.
+  <br /> <br />
+  I'm constantly learning, iterating, and looking for opportunities to grow as a full-fledged software engineer. You can connect with me through my social links below!
+</Main>
+
+
 
         <BigTitle text="ABOUT" top="10%" left="5%" />
 

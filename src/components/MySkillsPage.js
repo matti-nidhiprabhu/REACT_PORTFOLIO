@@ -28,7 +28,7 @@ color: ${props => props.theme.text};
 background-color: ${props => props.theme.body};
 padding: 2rem;
 width: 30vw;
-height: 60vh;
+height: 70vh;
 z-index:3;
 line-height: 1.5;
 cursor: pointer;
@@ -83,72 +83,65 @@ ul,p{
 `
 
 const MySkillsPage = () => {
-    return (
-        <ThemeProvider theme={lightTheme}>
-<Box>
+  return (
+    <ThemeProvider theme={lightTheme}>
+      <Box>
 
-<LogoComponent theme='light'/>
-<SocialIcons theme='light'/>
-<PowerButton />
-<ParticleComponent theme='light' />
-            <Main>
-<Title>
-    <Design width={40} height={40} /> Designer
-</Title>
-<Description>
-I love to create design which speaks, Keep it clean, minimal and simple.
-</Description>
-<Description>
-<strong>I like to Design</strong>
-<ul>
-    <li>
-        Web Design
-    </li>
-    <li>
-        Mobile Apps
-    </li>
-</ul>
-</Description>
-<Description>
-<strong>Tools</strong>
-<ul>
-    <li>
-       Figma
-    </li>
-    
-</ul>
-</Description>
+        <LogoComponent theme='light' />
+        <SocialIcons theme='light' />
+        <PowerButton />
+        <ParticleComponent theme='light' />
 
-            </Main>
-            <Main>
-<Title>
-    <Develope width={40} height={40} /> Frontend Developer
-</Title>
-<Description>
-I value business or brand for which i'm creating, thus i enjoy bringing new ideas to life.
-</Description>
-<Description>
-<strong>Skills</strong>
-<p>
-Html, Css, Js, React, Redux, Sass, Bootstrap, Tailwind, Firebase etc.
-</p>
-</Description>
-<Description>
-<strong>Tools</strong>
-<p>
-VScode, Github, Codepen etc.
-</p>
-</Description>
+        <Main>
+          <Title>
+            <Develope width={40} height={30} /> Frontend Developer
+          </Title>
+          <Description>
+            I build responsive, modular, and maintainable web applications using modern frontend technologies.
+          </Description>
+          <Description>
+            <strong>Skills</strong>
+            <p>
+              HTML, CSS, JavaScript, React.js, Redux, Bootstrap, Tailwind, Styled-Components, Framer Motion
+            </p>
+          </Description>
+          <Description>
+            <strong>Tools</strong>
+            <p>
+              VS Code, GitHub, Streamlit.
+            </p>
+          </Description>
+        </Main>
 
-            </Main>
+        <Main>
+          <Title>
+            <Develope width={40} height={40} /> Tech Projects & Research
+          </Title>
+          <Description>
+            I work on IoT-based systems and apply ML/DL methods for real-time fault detection in Wireless Sensor Networks.
+          </Description>
+          <Description>
+            <strong>Domains</strong>
+            <ul>
+              <li>Wireless Sensor Networks (WSN)</li>
+              <li>IoT & Smart Devices</li>
+              <li>Machine / Deep Learning</li>
+            </ul>
+          </Description>
+          <Description>
+            <strong>Tools & Frameworks</strong>
+            <ul>
+              <li>Python, Arduino, NS-3, Jupyter Notebook</li>
+              
+            </ul>
+          </Description>
+        </Main>
 
-            <BigTitle text="SKILLS" top="80%" right="30%" />
+        <BigTitle text="SKILLS" top="80%" right="30%" />
 
-        </Box>
-
-        </ThemeProvider>
-        
-    )
-}
+      </Box>
+    </ThemeProvider>
+  );
+};
 
 export default MySkillsPage
